@@ -1,0 +1,125 @@
+/* ===========================================
+   MCNSL Official Website
+   Global Styles
+=========================================== */
+
+:root {
+
+    color-scheme: dark;
+
+    /* Brand */
+
+    --primary: #3b82f6;
+    --primary-light: #60a5fa;
+
+    /* Background */
+
+    --background: #050816;
+    --background-secondary: #0d1225;
+
+    /* Surface */
+
+    --surface: rgba(255,255,255,.06);
+    --surface-hover: rgba(255,255,255,.10);
+
+    /* Text */
+
+    --text: #ffffff;
+    --text-secondary: #aab6d6;
+
+    /* Border */
+
+    --border: rgba(255,255,255,.08);
+
+    /* Radius */
+
+    --radius: 18px;
+
+    /* Shadow */
+
+    --shadow:
+            0 10px 40px rgba(0,0,0,.35);
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+html,
+body,
+#app {
+
+    width: 100%;
+    min-height: 100%;
+
+}
+
+body {
+
+    background: var(--background);
+
+    color: var(--text);
+
+    font-family:
+            Inter,
+            "PingFang SC",
+            "Microsoft YaHei",
+            sans-serif;
+
+    overflow-x: hidden;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+}
+
+a {
+
+    color: inherit;
+    text-decoration: none;
+
+}
+
+button {
+
+    border: none;
+    background: none;
+
+    font: inherit;
+
+    cursor: pointer;
+
+}
+
+img {
+
+    display: block;
+    max-width: 100%;
+
+}
+
+ul,
+ol {
+
+    list-style: none;
+
+}
+
+.container {
+
+    width: min(1280px, calc(100% - 48px));
+
+    margin: auto;
+
+}
